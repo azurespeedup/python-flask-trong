@@ -9,4 +9,7 @@ test:
 lint:
 	pylint --disable=R,C hello.py
 
+format:
+	echo "formatting code"
+
 all: install lint test
