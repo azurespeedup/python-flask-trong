@@ -10,7 +10,8 @@ test:
 
 
 lint:
-	pylint --disable=R,C,W1203 app.py
+	#pylint --disable=R,C,W1203 app.py
+	pylint --disable=R,C hello.py
 
 format:
 	echo "formatting code"
